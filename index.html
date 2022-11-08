@@ -1,109 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <img src="./img/logo.png" alt="" class="logo">
-        <nav class="main-nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
-                <li class="nav-item"><a href="#" class="nav-link cta-link">Order Now</a></li>
-            </ul>
-        </nav>
+      <img src="./img/logo.png" alt="" class="logo" />
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+          <li class="nav-item">
+            <a href="#" class="nav-link cta-link">Order Now</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section class="section-hero">
-            <div class="hero">
-                <div class="hero-text-box">
-                    <h1 class="heading-primary">Organic Lahana oil from Arriana region of Greece</h1>
-                    <p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora
-                        facilis magni nulla
-                        accusantium. Harum sequi aliquid temporibus est neque.</p>
-                </div>
-                <div class="hero-img-box">
-                    <img class="hero-img" src="./img/olive.jpg" alt="Olive tree branch">
-                </div>
-            </div>
-        </section>
-        <section class="section-passion">
-            <div class="container">
-                <span class="sub-heading">Devotion & Curiosity</span>
-                <h2 class="heading-secondary">And our passion makes us differ!</h2>
-            </div>
-            <div class="container grid grid--2-cols">
-                <div class="passion-text-box">
-                    <h3 class="heading-tertiary">It requires hard work, and sometimes sleepless nights</h3>
-                    <p class="passion-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi
-                        magnam accusamus quo pariatur tenetur rerum dolores inventore natus. Laborum quibusdam fugiat
-                        ratione nemo sapiente eligendi temporibus suscipit architecto ut tempora.</p>
-                </div>
-                <div class="passion-img-box">
-                    <img class="passion-img" src="./img/passion-1.jpg" alt="">
-                </div>
-                <div class="passion-img-box">
-                    <img class="passion-img" src="./img/passion-2.jpg" alt="">
-                </div>
-                <div class="passion-text-box">
-                    <h3 class="heading-tertiary">It requires hard work, and sometimes sleepless nights</h3>
-                    <p class="passion-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi
-                        magnam accusamus quo pariatur tenetur rerum dolores inventore natus. Laborum quibusdam fugiat
-                        ratione nemo sapiente eligendi temporibus suscipit architecto ut tempora.</p>
-                </div>
-                <div class="passion-text-box">
-                    <h3 class="heading-tertiary">It requires hard work, and sometimes sleepless nights</h3>
-                    <p class="passion-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi
-                        magnam accusamus quo pariatur tenetur rerum dolores inventore natus. Laborum quibusdam fugiat
-                        ratione nemo sapiente eligendi temporibus suscipit architecto ut tempora.</p>
-                </div>
-                <div class="passion-img-box">
-                    <img class="passion-img" src="./img/passion-3.jpg" alt="">
-                </div>
-            </div>
-        </section>
-        <section class="section-contact">
-            <div class="contact container">
-                <div>
-                    <h2 class="heading-secondary">Subscribe to our newsletter</h2>
-                    <form action="" class="contact-form grid grid--2-cols">
-                        <div class="input-div">
-                            <label class="label" for="name">Name</label>
-                            <input type="text" class="input" id="name" placeholder="Kyriakos">
-                        </div>
-                        <div class="input-div">
-                            <label class="label" for="last-name">Last Name</label>
-                            <input type="text" class="input" id="last-name" placeholder="Mitsotakis">
-                        </div>
-                        <div>
-                            <label class="label" for="select-where">Where did you hear for us</label>
-                            <select class="select" name="" id="select-where" required>
-                                <option value="">Please choose one option:</option>
-                                <option value="friends">Friends and Family</option>
-                                <option value="youtube">Youtube video</option>
-                                <option value="podcast">Podcast</option>
-                                <option value="facebook">Facebook add</option>
-                                <option value="others">Others</option>
-                            </select>
-                        </div>
-                        <button class="btn-form">Subscribe now!</button>
-                    </form>
-                </div>
-                <img src="./img/contact.jpg" alt="Contact Image" class="contact-img">
-            </div>
-        </section>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Organic turshi from Kirkovo</h1>
+            <p class="hero-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              tempora facilis magni nulla accusantium. Harum sequi aliquid
+              temporibus est neque.
+            </p>
+          </div>
+          <div class="hero-img-box">
+            <img
+              class="hero-img"
+              src="./img/olive.jpg"
+              alt="Olive tree branch"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section-passion">
+        <div class="container">
+          <span class="sub-heading">Devotion & Curiosity</span>
+          <h2 class="heading-secondary">And our passion makes us differ!</h2>
+        </div>
+        <div class="container grid grid--2-cols">
+          <div class="passion-text-box">
+            <h3 class="heading-tertiary">
+              It requires hard work, and sometimes sleepless nights
+            </h3>
+            <p class="passion-description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Excepturi magnam accusamus quo pariatur tenetur rerum dolores
+              inventore natus. Laborum quibusdam fugiat ratione nemo sapiente
+              eligendi temporibus suscipit architecto ut tempora.
+            </p>
+          </div>
+          <div class="passion-img-box">
+            <img class="passion-img" src="./img/passion-1.jpg" alt="" />
+          </div>
+          <div class="passion-img-box">
+            <img class="passion-img" src="./img/passion-2.jpg" alt="" />
+          </div>
+          <div class="passion-text-box">
+            <h3 class="heading-tertiary">
+              It requires hard work, and sometimes sleepless nights
+            </h3>
+            <p class="passion-description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Excepturi magnam accusamus quo pariatur tenetur rerum dolores
+              inventore natus. Laborum quibusdam fugiat ratione nemo sapiente
+              eligendi temporibus suscipit architecto ut tempora.
+            </p>
+          </div>
+          <div class="passion-text-box">
+            <h3 class="heading-tertiary">
+              It requires hard work, and sometimes sleepless nights
+            </h3>
+            <p class="passion-description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Excepturi magnam accusamus quo pariatur tenetur rerum dolores
+              inventore natus. Laborum quibusdam fugiat ratione nemo sapiente
+              eligendi temporibus suscipit architecto ut tempora.
+            </p>
+          </div>
+          <div class="passion-img-box">
+            <img class="passion-img" src="./img/passion-3.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="section-contact">
+        <div class="contact container">
+          <div>
+            <h2 class="heading-secondary">Subscribe to our newsletter</h2>
+            <form action="" class="contact-form grid grid--2-cols">
+              <div class="input-div">
+                <label class="label" for="name">Name</label>
+                <input
+                  type="text"
+                  class="input"
+                  id="name"
+                  placeholder="Kyriakos"
+                />
+              </div>
+              <div class="input-div">
+                <label class="label" for="last-name">Last Name</label>
+                <input
+                  type="text"
+                  class="input"
+                  id="last-name"
+                  placeholder="Mitsotakis"
+                />
+              </div>
+              <div>
+                <label class="label" for="select-where"
+                  >Where did you hear for us</label
+                >
+                <select class="select" name="" id="select-where" required>
+                  <option value="">Please choose one option:</option>
+                  <option value="friends">Friends and Family</option>
+                  <option value="youtube">Youtube video</option>
+                  <option value="podcast">Podcast</option>
+                  <option value="facebook">Facebook add</option>
+                  <option value="others">Others</option>
+                </select>
+              </div>
+              <button class="btn-form">Subscribe now!</button>
+            </form>
+          </div>
+          <img
+            src="./img/contact.jpg"
+            alt="Contact Image"
+            class="contact-img"
+          />
+        </div>
+      </section>
     </main>
-</body>
-
+  </body>
 </html>
